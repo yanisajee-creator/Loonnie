@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loonnie — ผลิตภัณฑ์ดูแลผิวจากน้ำผึ้ง</title>
+  <meta name="description" content="loonnie ความหวานจากน้ำผึ้ง ดูแลผิวให้นุ่มชุ่มชื่น เรียบเนียน กระจ่างใสในทุกวัน">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">Loonnie</a>
+      <nav class="nav">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้า</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero hero--full">
+      <div class="container">
+        <span class="eyebrow">Honey Skincare</span>
+        <h1>loonnie ความหวานจากน้ำผึ้ง ดูแลผิวให้นุ่มชุ่มชื่น เรียบเนียน กระจ่างใสในทุกวัน</h1>
+        <span class="title-rule"></span>
+        <a href="product.html" class="btn">ดูสินค้าทั้งหมด</a>
+      </div>
+    </section>
+
+    <!-- Moods -->
+    <section class="section section--white">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Moods</span>
+          <h2>เลือกตามอารมณ์ของคุณ</h2>
+          <span class="title-rule"></span>
+        </div>
+
+        <div class="grid grid--4">
+          <a class="mood-card" href="product.html?mood=fresh">
+            <div class="mood-card__icon"><span class="mood-dot"></span></div>
+            <h3>Fresh</h3>
+            <p>สดชื่น เบาสบาย</p>
+          </a>
+
+          <a class="mood-card" href="product.html?mood=sweet">
+            <div class="mood-card__icon"><span class="mood-dot"></span></div>
+            <h3>Sweet</h3>
+            <p>หวานละมุน อ่อนโยน</p>
+          </a>
+
+          <a class="mood-card" href="product.html?mood=confident">
+            <div class="mood-card__icon"><span class="mood-dot"></span></div>
+            <h3>Confident</h3>
+            <p>มั่นใจในทุกวัน</p>
+          </a>
+
+          <a class="mood-card" href="product.html?mood=romance">
+            <div class="mood-card__icon"><span class="mood-dot"></span></div>
+            <h3>Romance</h3>
+            <p>อบอุ่น โรแมนติก</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="logo">Loonnie</span>
+      <p class="mb-0">&copy; Loonnie. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
